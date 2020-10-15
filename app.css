@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body,html{
+   margin: 0px;
+   height: 100%;
+}
+#background-image{
+    background-image: url('foto1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+   
+}
+#content{
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-right: 0px;
+
+}
+#Hora{
+    width: 1000px;
+    /* border:1px solid rgb(0, 0, 0); */
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 15%;   
+    font-family: 'Open Sans', sans-serif;
+    backdrop-filter: blur(10px);
+    color: white;
+    box-shadow: 2px 2px 5px  black;
+    filter: grayscale(none);
+}
+hr{
+   width: 70%;
+   height: 1px;
+background-color:white;
+}
